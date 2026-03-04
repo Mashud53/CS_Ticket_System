@@ -3,9 +3,9 @@ import calender from '../../assets/icon/calender.png'
 import yellow from '../../assets/icon/yellow.png'
 import green from '../../assets/icon/green.png'
 
-const TicketCard = ({ticket}) => {
+const TicketCard = ({ticket, addToTaskStatus}) => {
     return (
-        <div className='shadow-xl p-4'>
+        <div onClick={()=>{addToTaskStatus(ticket)}} className='shadow-xl p-4 cursor-pointer rounded-xl'>
                     <div className='flex justify-between items-start'>
                         <h2 className='font-semibold text-base'>{ticket.problem_title}</h2>
                         <div className={`${ticket.status == "Open" ? "bg-green-300": "bg-yellow-200"} flex items-center px-4 py-1 rounded-full`}>
