@@ -13,10 +13,10 @@ const Navbar = () => {
         </>
     )
     return (
-        <div className="navbar bg-base-100 shadow-sm ">
+        <div className="navbar bg-base-100 shadow-sm px-2 lg:px-10">
             <div className="navbar-start">
 
-                <a className="btn btn-ghost text-xl">CS-Ticket System</a>
+                <a className=" text-xl">CS-Ticket System</a>
             </div>
 
             <div className="navbar-end">
