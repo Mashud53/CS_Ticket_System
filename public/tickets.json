@@ -1,6 +1,6 @@
 [
   {
-    "id": "a3f9c1",
+    "id": 1001,
     "problem_title": "Login Authentication Failed",
     "description": "User unable to login with correct credentials.",
     "priority": "High",
@@ -8,35 +8,26 @@
     "customer_name": "John Smith",
     "created_date": "2026-03-01"
   },
+   {
+    "id": 1002,
+    "problem_title": "Dashboard Not Loading",
+    "description": "Admin dashboard page shows blank screen.",
+    "priority": "High",
+    "status": "Open",
+    "customer_name": "Michael Brown",
+    "created_date": "2026-03-02"
+  },
   {
-    "id": "b7d2e4",
+    "id": 1003,
     "problem_title": "Payment Gateway Error",
     "description": "Transaction fails during checkout process.",
-    "priority": "Critical",
+    "priority": "High",
     "status": "In-Progress",
     "customer_name": "Emma Johnson",
     "created_date": "2026-03-01"
   },
   {
-    "id": "c8a5f2",
-    "problem_title": "Dashboard Not Loading",
-    "description": "Admin dashboard page shows blank screen.",
-    "priority": "High",
-    "status": "Resolved",
-    "customer_name": "Michael Brown",
-    "created_date": "2026-03-02"
-  },
-  {
-    "id": "d4b8e7",
-    "problem_title": "Password Reset Email Not Received",
-    "description": "Customer did not receive reset password link.",
-    "priority": "Medium",
-    "status": "Closed",
-    "customer_name": "Olivia Davis",
-    "created_date": "2026-03-02"
-  },
-  {
-    "id": "e9c1a6",
+    "id": 1004,
     "problem_title": "Profile Update Failed",
     "description": "Changes to user profile are not saving.",
     "priority": "Low",
@@ -44,44 +35,57 @@
     "customer_name": "William Wilson",
     "created_date": "2026-03-02"
   },
+ 
   {
-    "id": "f2d7b9",
-    "problem_title": "Mobile App Crash",
-    "description": "Application crashes when opening notifications.",
-    "priority": "Critical",
+    "id": 1005,
+    "problem_title": "Password Reset Email Not Received",
+    "description": "Customer did not receive reset password link.",
+    "priority": "Medium",
     "status": "In-Progress",
-    "customer_name": "Sophia Martinez",
-    "created_date": "2026-03-03"
+    "customer_name": "Olivia Davis",
+    "created_date": "2026-03-02"
   },
+  
   {
-    "id": "a1e6d3",
+    "id": 1006,
+    "problem_title": "Notification Delay",
+    "description": "Email notifications are delayed by several hours.",
+    "priority": "Medium",
+    "status": "Open",
+    "customer_name": "Benjamin Taylor",
+    "created_date": "2026-03-04"
+  },
+  
+  {
+    "id": 1007,
     "problem_title": "Slow Page Response",
     "description": "Website takes too long to load pages.",
     "priority": "Medium",
-    "status": "Resolved",
+    "status": "Open",
     "customer_name": "James Anderson",
     "created_date": "2026-03-03"
   },
   {
-    "id": "b5f3c8",
+    "id": 1008,
     "problem_title": "Data Export Not Working",
     "description": "CSV export function generates empty file.",
     "priority": "High",
-    "status": "Open",
+    "status": "In-Progress",
     "customer_name": "Isabella Thomas",
     "created_date": "2026-03-03"
   },
   {
-    "id": "c2b9e5",
-    "problem_title": "Notification Delay",
-    "description": "Email notifications are delayed by several hours.",
-    "priority": "Medium",
-    "status": "Closed",
-    "customer_name": "Benjamin Taylor",
-    "created_date": "2026-03-04"
+    "id": 1009,
+    "problem_title": "Mobile App Crash",
+    "description": "Application crashes when opening notifications.",
+    "priority": "High",
+    "status": "In-Progress",
+    "customer_name": "Sophia Martinez",
+    "created_date": "2026-03-03"
   },
+  
   {
-    "id": "d6a4f1",
+    "id": 1010,
     "problem_title": "Account Suspension Issue",
     "description": "User account suspended without clear reason.",
     "priority": "High",
@@ -90,47 +94,47 @@
     "created_date": "2026-03-04"
   },
   {
-    "id": "e3d8c7",
+    "id": 1011,
     "problem_title": "File Upload Error",
     "description": "Users cannot upload attachments to tickets.",
-    "priority": "Critical",
+    "priority": "High",
     "status": "Open",
     "customer_name": "Lucas Jackson",
     "created_date": "2026-03-04"
   },
   {
-    "id": "f9b2a4",
+    "id": 1012,
     "problem_title": "Search Function Not Returning Results",
     "description": "Search bar does not display matching records.",
     "priority": "Medium",
-    "status": "Resolved",
+    "status": "In-Progress",
     "customer_name": "Charlotte White",
     "created_date": "2026-03-04"
   },
   {
-    "id": "a7c4e9",
+    "id": 1013,
     "problem_title": "Role Permission Error",
     "description": "Staff members cannot access assigned tickets.",
     "priority": "High",
-    "status": "Closed",
+    "status": "Open",
     "customer_name": "Henry Harris",
     "created_date": "2026-03-05"
   },
   {
-    "id": "b3e1f6",
+    "id": 1014,
     "problem_title": "Session Timeout Too Short",
     "description": "System logs out users too quickly.",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "In-Progress",
     "customer_name": "Amelia Clark",
     "created_date": "2026-03-05"
   },
   {
-    "id": "c5f8a2",
+    "id": 1015,
     "problem_title": "Invoice Generation Failed",
     "description": "System unable to generate PDF invoices.",
-    "priority": "Critical",
-    "status": "In-Progress",
+    "priority": "High",
+    "status": "Open",
     "customer_name": "Daniel Lewis",
     "created_date": "2026-03-05"
   }

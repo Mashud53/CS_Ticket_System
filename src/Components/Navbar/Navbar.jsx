@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="navbar bg-base-100 shadow-sm px-2 lg:px-10">
             <div className="navbar-start">
 
-                <a className=" text-xl">CS-Ticket System</a>
+                <a className=" text-xl font-bold cursor-pointer">CS-Ticket System</a>
             </div>
 
             <div className="navbar-end">
